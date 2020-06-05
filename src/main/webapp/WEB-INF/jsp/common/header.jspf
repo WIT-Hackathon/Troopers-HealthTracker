@@ -15,7 +15,44 @@
 	<script src="js/payload.js"></script>
 	<script src="js/global.js"></script>
 	<script type="text/javascript" src="https://cdn.rawgit.com/watson-developer-cloud/watson-developer-cloud.github.io/master/analytics.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<script language="javascript">
+$(document).ready(function(){
+      var user = $('p1').html();
+      var sessionUser= sessionStorage.getItem("user");
+      var undefined= ".";
+      var adminUser= "Mr.Healthcare admin";
+     if(sessionUser != null){
+       if(user != undefined){
+      if (user != sessionUser){
+       user = $('p1').html();
+      sessionStorage.setItem("user", user);
+            }
+      }
+
+if (sessionStorage.getItem("user").toLowerCase() != adminUser.toLowerCase()){
+      $("#Plist").hide();
+     $("#chartContainer").hide();
+     $("#chartContainer1").show();
+      }
+       else {
+       $("#PView").hide();
+      $("#chartContainer1").hide();
+      $("#chartContainer").show();
+        }
+      }
+
+      else{
+      user = $('p1').html();
+      sessionStorage.setItem("user", user);
+      }
+    });
+
+
+</script>
 <style>
 .footer {
 

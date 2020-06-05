@@ -9,11 +9,8 @@
 </script>
 
 
-<div class="footer">
-	Fixed Footer
-	<h1>
-		Women Hackathon 2020
-	</h1>
+<div class="footer-copyright text-center ">
+	<h6>Women Hackathon 2020</h6>
 </div>
 </body>
 </html>

@@ -50,6 +50,15 @@ public class PatientController {
         return "edit-patient";
     }
 
+    @GetMapping("/{name}/view")
+    public String showPatientByName(@PathVariable String name, Model model) {
+        Patient patient = service.findByName(name);
+                if(patient.getFirstName()==null) throw new IllegalArgumentException("Invalid patient Name:" + name);
+        model.addAttribute("patient", patient);
+        return "redirect:/"+patient.getId();
+
+        //return "edit-patient";
+    }
     @PostMapping("/{id}/update")
     public String updatePatient(@PathVariable Long id, @Valid @ModelAttribute Patient patient, BindingResult result, Model model) {
         if (result.hasErrors()) {
@@ -58,7 +67,7 @@ public class PatientController {
         service.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Invalid patient Id:" + id));
         service.save(patient);
-        return "redirect:/list-patients";
+        return "redirect:/";
     }
 
     @PostMapping("/{id}/delete")
