@@ -1,4 +1,4 @@
-package com.ibm.watson.controller.V2;
+package com.troopers.healthtracker.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.google.gson.GsonBuilder;
@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class ControllerV2 {
+public class WatsonAssitanceController {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -38,7 +38,7 @@ public class ControllerV2 {
     private String url;
 
     @PostMapping("/api/message")
-    public String getMessage(@RequestBody com.ibm.watson.dto.MessageInput messageInput) throws JsonProcessingException {
+    public String getMessage(@RequestBody com.troopers.healthtracker.dto.MessageInput messageInput) throws JsonProcessingException {
         try {
             IamAuthenticator authenticator = new IamAuthenticator(apikey);
             Assistant assistant = new Assistant(versionid, authenticator);
@@ -88,7 +88,7 @@ public class ControllerV2 {
 
     }
 
-    private MessageInput getMessageInput(com.ibm.watson.dto.MessageInput messageInput) {
+    private MessageInput getMessageInput(com.troopers.healthtracker.dto.MessageInput messageInput) {
 
         String text = (messageInput.getInput() == null || messageInput.getInput().getText() == null) ? "" : messageInput.getInput().getText();
         MessageInputOptions inputOptions = new MessageInputOptions.Builder().returnContext(true).build();

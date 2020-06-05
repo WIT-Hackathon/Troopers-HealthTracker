@@ -1,4 +1,4 @@
-package com.ibm.watson.dto;
+package com.troopers.healthtracker.dto;
 
 import com.ibm.watson.developer_cloud.assistant.v1.model.Context;
 

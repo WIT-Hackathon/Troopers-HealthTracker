@@ -33,6 +33,7 @@ var PayloadPanel = (function() {
   // hidden (default for small/mobile resolution apps)
   // full width (regardless of screen size)
   function togglePanel(event, element) {
+      document.getElementById("contentParent").style.display="block";
     var payloadColumn = document.querySelector(settings.selectors.payloadColumn);
     if (element.classList.contains('full')) {
       element.classList.remove('full');
