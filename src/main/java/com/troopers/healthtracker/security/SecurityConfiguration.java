@@ -16,6 +16,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .passwordEncoder(NoOpPasswordEncoder.getInstance())
         		.withUser("admin").password("admin")
                 .roles("USER", "ADMIN");
+        auth.inMemoryAuthentication()
+                .passwordEncoder(NoOpPasswordEncoder.getInstance())
+                .withUser("Sheldon").password("Sheldon")
+                .roles("USER", "USER");
     }
 	
 	@Override

@@ -29,6 +29,16 @@ public class PatientService {
         return repository.findById(id);
     }
 
+    public Patient findByName(String name) {
+        Patient found = new Patient();
+        for (Patient patient : this.findAll()) {
+            if (patient.getFirstName().equalsIgnoreCase(name)) {
+                found = patient;
+            }
+        }
+        return found;
+    }
+
     public Patient save(Patient patient) {
         return repository.save(patient);
     }

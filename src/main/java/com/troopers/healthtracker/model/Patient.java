@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Patient {
@@ -19,27 +20,28 @@ public class Patient {
     @NotBlank(message = "Last Name is mandatory")
     private String lastName;
 
-    @NotBlank(message = "Email is mandatory")
-    private String email;
-
     @NotBlank(message = "Disease is mandatory")
     private String disease;
 
     private long days;
+    private String prescription;
+    @NotBlank(message = "Email Id is mandatory")
+    private String emailId;
 
-    public Patient(String firstName, String lastName, String email, String disease, long days) {
+    @NotBlank(message = "Contact is mandatory")
+    private String contact;
+
+    public Patient(String firstName, String lastName, String disease, long days, String emailId,String contact) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.email = email;
         this.disease = disease;
         this.days = days;
+        this.contact=contact;
+        this.emailId=emailId;
 
     }
-
-    public Patient() {
-    }
-
+    public Patient(){}
     public long getId() {
         return id;
     }
@@ -64,14 +66,6 @@ public class Patient {
         this.lastName = lastName;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getDisease() {
         return disease;
     }
@@ -88,6 +82,14 @@ public class Patient {
         this.days = days;
     }
 
+    public String getPrescription() {
+        return prescription;
+    }
+
+    public void setPrescription(String prescription) {
+        this.prescription = prescription;
+    }
+
     @Override
     public String toString() {
         return "patient: {" +
@@ -95,5 +97,21 @@ public class Patient {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
+    }
+
+    public String getEmailId() {
+        return emailId;
+    }
+
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 }

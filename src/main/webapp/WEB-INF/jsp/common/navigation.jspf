@@ -1,12 +1,15 @@
 
-<nav role="navigation" class="navbar navbar-default">
-	<div class="">
-		Quicksilver Team
-	</div>
-	<div class="navbar-collapse">
+<nav role="navigation" class="navbar navbar-inverse">
+
+		<div class="navbar-collapse">
+		<div class="navbar-header">
+                  <a class="navbar-brand" href="#">Health Track</a>
+                </div>
 		<ul class="nav navbar-nav">
-			<li class="active"><a href="/">Home</a></li>
-			<li><a href="/list-patients">Patients List</a></li>
+			<li class="active" ><a href="/">Home</a></li>
+			<li id="Plist"><a href="/list-patients">Patients List</a></li>
+			<li id="PView"><a href="<c:url value='/${name}/view'/>">View Profile</a></li>
+
 		</ul>
 			<ul class="nav navbar-nav">
             			<li><a href="/logout">Logout</a></li>
