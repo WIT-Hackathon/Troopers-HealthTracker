@@ -11,9 +11,9 @@
         <encoder>
             <pattern>%date %level [%thread] %logger{10} [%file : %line] %msg%n</pattern>
         </encoder>
-        <file>/home/docker/mkalavat/source/ibm-assistant/logs/java-assistant-sample.log</file>
+        <file>logs/java-assistant-sample.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/home/docker/mkalavat/source/ibm-assistant/logs/java-assistant-sample.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <fileNamePattern>logs/java-assistant-sample.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>100MB</maxFileSize>
