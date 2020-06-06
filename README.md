@@ -126,7 +126,7 @@ These instructions will get you a copy of the project up and running on your loc
     ```
 
 1. View the application in a browser at `localhost:8080
-2. FOr Admin login use -  username : admin, password: admin
+2. For Admin login use -  username : admin, password: admin
 3. For Patient login use - username : Sheldon,  password:Sheldon
 
 ## Running the tests
