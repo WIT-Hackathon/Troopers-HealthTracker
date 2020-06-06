@@ -41,9 +41,9 @@ An application where medical professionals will be monitoring patient’s health
 Based on patient’s health, medical professionals will take necessary actions like advising prescription, connect via chat bot ,suggestions for clinical tests, physical visit..etc 
 Thus Trooper Health Tracker will help to maintain medical professionals -Patient relation by social distancing
 
-## Demo video - To be modified
+## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](readme_files/vidoe.jpg)]
 
 ## The architecture
 
