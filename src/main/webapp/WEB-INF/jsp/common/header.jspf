@@ -24,7 +24,7 @@ $(document).ready(function(){
       var user = $('p1').html();
       var sessionUser= sessionStorage.getItem("user");
       var undefined= ".";
-      var adminUser= "Mr.Healthcare admin";
+      var adminUser= "Healthcare admin";
      if(sessionUser != null){
        if(user != undefined){
       if (user != sessionUser){
