@@ -29,7 +29,7 @@
 
 ### What's the problem?
 
-Every pandemic brings a challenge in healthcare where connecting the doctors with patients with accurate and relevant info is very critical to cure the patients and stop the spread of the pandemic.
+Every pandemic brings a challenge in healthcare, connecting the doctors with patients for accurate and relevant info is very critical to cure the patients and stop the spread of the pandemic.
 
 ### How can technology help?
 
@@ -52,8 +52,8 @@ Thus Trooper Health Tracker will help to maintain medical professionals -Patient
 1. The patients daily stats are collected and stored in DB through a device or by manual entry.
 2. When a patient/admin user logins into an app, corresponding users stats are shown in dashboard.
 3. Watson Assistant chatbot is available at admin/patient page to provide support for any queries.
-4. Patient have an option to reach out to Doctor by providing the symptoms through an automated email.
-5. Doctor suggests Patient by providing prescription based on symptoms, if it is urgent patient needs to admit in hospital.
+4. Patients have an option to reach out to a doctor via an automated email and vice versa.
+5. Doctor takes necessary actions based on the symptoms.
 
 ## Long description
 
