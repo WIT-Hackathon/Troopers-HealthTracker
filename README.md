@@ -43,7 +43,7 @@ Thus Trooper Health Tracker will help to maintain medical professionals -Patient
 
 ## Demo video
 
-[![Watch the video](readme_files/vidoe.jpg)]
+[![Watch the video](readme_files/video.jpg)]
 
 ## The architecture
 
