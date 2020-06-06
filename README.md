@@ -103,11 +103,12 @@ These instructions will get you a copy of the project up and running on your loc
 * `WATSON_API_URL` with the assistant URL of the Assistant Details of your Assistant of Watson Assistant.
 > NOTE: Only include the part of the URL up to and including `/api` 
  
-![](readme_files/wa_url.jpg)
+![](readme_files/wa_url.JPG)
 
 * `WATSON_ASSISTANT_ID` with the assistant ID of the Assistant Details of your Assistant of Watson Assistant.
 
-![](readme_files/wa_id.jpg)
+![](readme_files/wa_id.JPG)
+
 7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for `url` , `apikey` in the application.properties file.
 
 ## Running locally
