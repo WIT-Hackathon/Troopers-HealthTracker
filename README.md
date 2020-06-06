@@ -138,7 +138,7 @@ Explain how to run the automated tests for this system
     
     ```
 
-## Live demo - NA
+## Live demo - Refer Recording
 
 ## Built with
 
@@ -162,11 +162,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 See also the list of [contributors](https://github.com/WIT-Hackathon/Troopers-HealthTracker/graphs/contributors) who participated in this project.
 
 ## License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
+NA
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
-
+NA
 
