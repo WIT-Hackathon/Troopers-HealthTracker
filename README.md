@@ -161,7 +161,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/WIT-Hackathon/Troopers-HealthTracker/graphs/contributors) who participated in this project.
 
 ## License
 
