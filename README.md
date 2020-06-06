@@ -61,7 +61,7 @@ Thus Trooper Health Tracker will help to maintain medical professionals -Patient
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](readme_files/roadmap.jpg)
 
 ## Getting started
 
