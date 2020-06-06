@@ -13,7 +13,7 @@ public class WelcomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String showWelcomePage(ModelMap model) {
 		if(getLoggedinUserName().equalsIgnoreCase("admin"))
-			model.put("name", "Mr.Healthcare "+getLoggedinUserName());
+			model.put("name", "Healthcare "+getLoggedinUserName());
 		else
 			model.put("name", getLoggedinUserName());
 		return "welcome";
