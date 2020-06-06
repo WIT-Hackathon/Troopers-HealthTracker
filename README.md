@@ -29,15 +29,17 @@
 
 ### What's the problem?
 
-Every Pandemic brings a challenge in healthcare where connecting the doctors with patients with accurate and relevant info is very critical to cure the patients and stop the spread of pandemic.
+Every pandemic brings a challenge in healthcare where connecting the doctors with patients with accurate and relevant info is very critical to cure the patients and stop the spread of the pandemic.
 
 ### How can technology help?
 
-When social distancing becomes the norm virtual connect becomes the solution. Connecting the Patients with the doctors in virtual chat rooms and providing the place where the patients stats can be shared is very critical.
+As social distancing has become the norm, we will need virtual connect to sustain us. Connecting Patients and Doctors by providing a platform for chat rooms and frequent virtual health checks when unusual symptoms are observed is essential .
 
 ### The idea
 
-An application where patient will add all the information regarding his health (hourly/daily/weekly) and doctors will be able to see all the stats for the patients. Based on patient’s health doctor will add the prescription on the app and  If needed they can connect virtually to assess the patient. Even they can create the plan for patients like further test needed or in person visit needed. App will be integrated with IBM Watson chatbot which will connect users/patients with medical professionals based on the inputs provided.
+An application where medical professionals will be monitoring patient’s health information (hourly/daily/weekly) from time to time through a smart device/ Manual process.
+Based on patient’s health, medical professionals will take necessary actions like advising prescription, connect via chat bot ,suggestions for clinical tests, physical visit..etc 
+Thus Trooper Health Tracker will help to maintain medical professionals -Patient relation by social distancing
 
 ## Demo video - To be modified
 
