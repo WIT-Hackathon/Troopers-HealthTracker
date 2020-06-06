@@ -28,8 +28,8 @@ public class Application extends SpringBootServletInitializer {
             repository.save(new Patient("Sheldon", "Cooper", "Fever", 8L, "sheldon@gmail.com", "98480331233" ));
             repository.save(new Patient("Amy","Fowler","Headache", 3L,"amy@abc.com", "8764371234" ));
             repository.save(new Patient("Meg","March","Cold", 5L,"meg@optum.com", "7646612531"));
-            repository.save(new Patient("Dave","Wilson","Fever", 8L,"dwilson@optum.com", "7646613472"));
-            repository.save(new Patient("Mendoza","Enrique","Cough", 6L,"m_enrique@optum.com", "7649982531"));
+            repository.save(new Patient("Dav","John","Fever", 8L,"dwilson@optum.com", "7646613472"));
+            repository.save(new Patient("Nick","Seaon","Cough", 6L,"m_enrique@optum.com", "7649982531"));
 
         };
     }

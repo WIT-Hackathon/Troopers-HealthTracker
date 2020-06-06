@@ -17,8 +17,8 @@ window.onload = function () {
 			{ label: "Sheldon Cooper",  y: 120  },
            { label: "Amy Fowler", y: 98  },
             { label: "Meg March", y: 108  },
-          { label: "Dave Wilson",  y: 110  },
-                   { label: "Mendoza Enrique",  y: 95  }
+          { label: "Dave John",  y: 110  },
+                   { label: "Nick Seaon",  y: 95  }
 
 
 			]
