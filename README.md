@@ -29,28 +29,29 @@
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+Every Pandemic brings a challenge in healthcare where connecting the doctors with patients with accurate and relevant info is very critical to cure the patients and stop the spread of pandemic.
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+When social distancing becomes the norm virtual connect becomes the solution. Connecting the Patients with the doctors in virtual chat rooms and providing the place where the patients stats can be shared is very critical.
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+An application where patient will add all the information regarding his health (hourly/daily/weekly) and doctors will be able to see all the stats for the patients. Based on patient’s health doctor will add the prescription on the app and  If needed they can connect virtually to assess the patient. Even they can create the plan for patients like further test needed or in person visit needed. App will be integrated with IBM Watson chatbot which will connect users/patients with medical professionals based on the inputs provided.
 
 ## Demo video - To be modified
 
 [![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
-## The architecture  -- To be modified
+## The architecture
 
 ![HealthTracker App](Architechture.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. The patients daily stats are collected and stored in DB through a device or by manual entry.
+2. When a patient/admin user logins into an app, corresponding users stats are shown in dashboard.
+3. Watson Assistant chatbot is available at admin/patient page to provide support for any queries.
+4. Patient have an option to reach out to Doctor by providing the symptoms through an automated email.
+5. Doctor suggests Patient by providing prescription based on symptoms, if it is urgent patient needs to admit in hospital.
 
 ## Long description
 
