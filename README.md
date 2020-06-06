@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">🚀 Troopers HealthTracker Application</h1>
+<h1 align="center" style="border-bottom: none;"> Troopers HealthTracker Application</h1>
 <h3 align="center">This is a Java + Spring Boot 2 Application intergrated with IBM Watson assistance base on Javascript demonstration app</h3>
 
 <p align="center">
