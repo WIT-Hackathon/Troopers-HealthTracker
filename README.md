@@ -55,7 +55,7 @@ An application where patient will add all the information regarding his health (
 
 ## Long description
 
-[More detail is available here](readme_files/DESCRIPTION.md)
+[More detail is available here](readme_files/Description.md)
 
 ## Project roadmap
 
@@ -95,49 +95,15 @@ These instructions will get you a copy of the project up and running on your loc
 6. In the application folder, edit the resources/application.properties
 
     ```
-    
+    ibm.assistant.version.date=
+    ibm.assistant.id=
+    ibm.assistant.url=
+    ibm.api.key=
     ```
 
-7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for either `username`, `password`, and `url` or the `apikey` and `url` credentials found in the *.env* file.
+7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for `url` , `apikey` and `url` credentials found in the *.env* file.
 
-    Example *.env* file that configures the `apikey` and `url` for a Watson Assistant service instance hosted in the US East region:
-
-    ```
-    ibm.assistant.workspace.id=10c28603-f97a-45b0-b8e3-01512554d582
-    ibm.assistant.username=17d5f37a-3022-40a4-9ad6-e456199adb75
-    ibm.assistant.password=6lnxVZeaJTc5
-    ```
-
-    - If your service instance uses `username` and `password` credentials, add the `ASSISTANT_USERNAME` and `ASSISTANT_PASSWORD` variables to the *.env* file.
-
-    Example *.env* file that configures the `username`, `password`, and `url` for a Watson Assistant service instance hosted in the US South region:
-
-    ```
-    
-    ibm.assistant.username=17d5f37a-3022-40a4-9ad6-e456199adb75
-    ibm.assistant.password=6lnxVZeaJTc5
-    ```
-    However, if your credentials contain an IAM API key, copy the `apikey` and `url` to the relevant fields.
-    ```JSON
-      {
-        "apikey": "ca2905e6-7b5d-4408-9192-e4d54d83e604",
-        "iam_apikey_description": "Auto generated apikey during resource-key ...",
-        "iam_apikey_name": "auto-generated-apikey-62b71334-3ae3-4609-be26-846fa59ece42",
-        "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-        "iam_serviceid_crn": "crn:v1:bluemix:public:iam...",
-        "url": "https://gateway-syd.watsonplatform.net/assistant/api"
-      }
-    ```
-    ```
-    ASSISTANT_IAM_APIKEY=ca2905e6-7b5d-4408-9192-e4d54d83e604
-    ASSISTANT_IAM_URL=https://gateway-syd.watsonplatform.net/assistant/api
-    ```
-
-8. Add the `WORKSPACE_ID` to the previous properties
-
-    ```
-    ibm.assistant.workspace.id=10c28603-f97a-45b0-b8e3-01512554d582
-    ```
+ 8. Add the `Assistant_ID` from the credentials settings page.
 
 ## Running locally
 
