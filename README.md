@@ -33,7 +33,7 @@ Every pandemic brings a challenge in healthcare where connecting the doctors wit
 
 ### How can technology help?
 
-As social distancing has become the norm, we will need virtual connect to sustain us. Connecting Patients and Doctors by providing a platform for chat rooms and frequent virtual health checks when unusual symptoms are observed is essential .
+As social distancing has become the norm, we will need virtual connect to sustain us. Connecting Patients and Doctors by providing a platform for chat rooms and frequent virtual health checks when unusual symptoms are observed is essential.
 
 ### The idea
 
