@@ -45,7 +45,7 @@ An application where patient will add all the information regarding his health (
 
 ## The architecture
 
-![HealthTracker App](Architechture.png)
+![HealthTracker App](readme_files/Architechture.png)
 
 1. The patients daily stats are collected and stored in DB through a device or by manual entry.
 2. When a patient/admin user logins into an app, corresponding users stats are shown in dashboard.
@@ -55,7 +55,7 @@ An application where patient will add all the information regarding his health (
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[More detail is available here](readme_files/DESCRIPTION.md)
 
 ## Project roadmap
 
@@ -82,7 +82,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 2. Click the **Import workspace** icon in the Watson Assistant service tool. Specify the location of the workspace JSON file in your local copy of the app project:
 
-    `<project_root>/training/bank_simple_workspace.json`
+    `<project_root>/training/skill-CDC-COVID-FAQ.json`
 
 3. Select **Everything (Intents, Entities, and Dialog)** and then click **Import**. The car dashboard workspace is created.
 
