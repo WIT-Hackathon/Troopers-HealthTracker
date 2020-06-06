@@ -29,7 +29,7 @@
 
 ### What's the problem?
 
-Every pandemic brings a challenge in healthcare, connecting the doctors with patients for accurate and relevant info is very critical to cure the patients and stop the spread of the pandemic.
+Every pandemic brings a challenge in healthcare where connecting the doctors with patients with accurate and relevant info is very critical to cure the patients and stop the spread of the pandemic.
 
 ### How can technology help?
 
@@ -52,8 +52,8 @@ Thus Trooper Health Tracker will help to maintain medical professionals -Patient
 1. The patients daily stats are collected and stored in DB through a device or by manual entry.
 2. When a patient/admin user logins into an app, corresponding users stats are shown in dashboard.
 3. Watson Assistant chatbot is available at admin/patient page to provide support for any queries.
-4. Patients have an option to reach out to a doctor via an automated email and vice versa.
-5. Doctor takes necessary actions based on the symptoms.
+4. Patient have an option to reach out to Doctor by providing the symptoms through an automated email.
+5. Doctor suggests Patient by providing prescription based on symptoms, if it is urgent patient needs to admit in hospital.
 
 ## Long description
 
@@ -86,15 +86,11 @@ These instructions will get you a copy of the project up and running on your loc
 
     `<project_root>/training/skill-CDC-COVID-FAQ.json`
 
-3. Select **Everything (Intents, Entities, and Dialog)** and then click **Import**. The car dashboard workspace is created.
+3. Select **Everything (Intents, Entities, and Dialog)** and then click **Import**. The covid dashboard workspace is created.
 
 4. Click the menu icon in the upper-right corner of the workspace tile, and then select **View details**.
 
-5. Click the ![Copy](readme_images/copy_icon.png) icon to copy the workspace ID to the clipboard.
-
-    ![Steps to get credentials](readme_images/assistant-simple.gif)
-
-6. In the application folder, edit the resources/application.properties
+5. In the application folder, edit the resources/application.properties and add the following fields.
 
     ```
     ibm.assistant.version.date=
@@ -102,23 +98,30 @@ These instructions will get you a copy of the project up and running on your loc
     ibm.assistant.url=
     ibm.api.key=
     ```
+6. Find api key, assistant id , assistant url from IBM cloud as shown below.
 
-7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for `url` , `apikey` and `url` credentials found in the *.env* file.
+* `WATSON_API_URL` with the assistant URL of the Assistant Details of your Assistant of Watson Assistant.
+> NOTE: Only include the part of the URL up to and including `/api` 
+ 
+![](readme_files/wa_url.png)
 
- 8. Add the `Assistant_ID` from the credentials settings page.
+* `WATSON_ASSISTANT_ID` with the assistant ID of the Assistant Details of your Assistant of Watson Assistant.
+
+![](readme_files/wa_id.png)
+7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for `url` , `apikey` in the application.properties file.
 
 ## Running locally
 
 1. Install the dependencies
 
     ```
-    maven clean
+    maven clean install
     ```
 
 1. Run the application
 
     ```
-    maven install
+    ./mvnw spring-boot:run
     ```
 
 1. View the application in a browser at `localhost:8080
@@ -127,18 +130,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 Explain how to run the automated tests for this system
 
+    ```
+    maven clean test
+    
+    ```
+
 ## Live demo - to be modify
 
 You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
 
 ## Built with - to be modify
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [IBM Watson Assistant](https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started-tutorial) - The    Chatbot application.
 * [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [SpringBoot] - Used to boot the application.
 
 ## Contributing
 
