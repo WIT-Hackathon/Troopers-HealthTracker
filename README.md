@@ -138,11 +138,9 @@ Explain how to run the automated tests for this system
     
     ```
 
-## Live demo - to be modify
+## Live demo - NA
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
-
-## Built with - to be modify
+## Built with
 
 * [IBM Watson Assistant](https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started-tutorial) - The    Chatbot application.
 * [Maven](https://maven.apache.org/) - Dependency management
