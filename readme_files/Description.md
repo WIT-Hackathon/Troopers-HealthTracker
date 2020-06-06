@@ -13,16 +13,16 @@ An application where medical professionals will be monitoring patient’s health
 
 
 ## Key Players:
-Devices supported – Mobile, web, Smart devices
-•	Patients: will upload their info in the application manually or through smart device.
-•	Doctors:  will see the info, asses the condition of the patient and provide further suggestions
-•	Chat bot: will enable virtual conversations for both patient and medical professional.
+
+Devices supported – Mobile, web, Smart devices                                                                                           
+•	Patients: will upload their info in the application manually or through smart device.                                                 
+•	Doctors:  will see the info, asses the condition of the patient and provide further suggestions.                                       
+•	Chat bot: will enable virtual conversations for both patient and medical professional.                                                 
 
 ## Benefits:
 
-•	All patient stats will be integrated on a central repo.
-•	Doctors will review the stats and alert the patients at the right time.
-•	Reduces Government’s cost in maintaining non-infected people in quarantine centers.
-•	Patient and doctor can connect virtually
-•	Patients are free to connect and have second opinion if needed.
+•	All patient stats will be integrated on a central repo.                                                                               • Doctors will review the stats and alert the patients at the right time.                                                               
+•	Reduces Government’s cost in maintaining non-infected people in quarantine centers.                                                   
+•	Patient and doctor can connect virtually.                                                                                             
+•	Patients are free to connect and have second opinion if needed.                                                                       
 
