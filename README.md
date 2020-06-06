@@ -103,11 +103,11 @@ These instructions will get you a copy of the project up and running on your loc
 * `WATSON_API_URL` with the assistant URL of the Assistant Details of your Assistant of Watson Assistant.
 > NOTE: Only include the part of the URL up to and including `/api` 
  
-![](readme_files/wa_url.png)
+![](readme_files/wa_url.jpg)
 
 * `WATSON_ASSISTANT_ID` with the assistant ID of the Assistant Details of your Assistant of Watson Assistant.
 
-![](readme_files/wa_id.png)
+![](readme_files/wa_id.jpg)
 7. Open the application.properties file and add the service credentials that you obtained in the previous step. The Watson SDK automaticaly locates the correct enviromental variables for `url` , `apikey` in the application.properties file.
 
 ## Running locally
@@ -144,6 +144,9 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 * [IBM Watson Assistant](https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started-tutorial) - The    Chatbot application.
 * [Maven](https://maven.apache.org/) - Dependency management
 * [SpringBoot] - Used to boot the application.
+* [Java] - Backend application
+* [Jquery] - Frontend application
+* [Google CanvasJS] - Used for Graphical/chart view.
 
 ## Contributing
 
