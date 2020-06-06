@@ -19,6 +19,10 @@ public class WelcomeController {
 		return "welcome";
 
 	}
+	@RequestMapping("/login")
+	public String  login() {
+		return "login";
+	}
 
 	private String getLoggedinUserName() {
 		Object principal = SecurityContextHolder.getContext()
@@ -30,5 +34,6 @@ public class WelcomeController {
 		
 		return principal.toString();
 	}
+
 
 }
