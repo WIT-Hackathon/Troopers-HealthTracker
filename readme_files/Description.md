@@ -9,7 +9,7 @@ and ensure people are comforatble at home with their families.
 
 ## Solution Proposed:
 
-An application where medical professionals will be monitoring patient’s health information (hourly/daily/weekly) from time to time through a smart device/manual process. Based on patient’s health, medical professionals will take necessary actions like advising prescription, connect via chat bot ,suggestions for clinical tests, physical visit, etc., Thus Trooper Health Tracker will help to maintain medical professionals-patient relation by social distancing.
+An application where medical professionals will be monitoring patient’s health information from time to time through a smart device/manual process. Based on patient’s health, medical professionals will take necessary actions like advising prescription, connect via chat bot ,suggestions for clinical tests, physical visit, etc., Thus Trooper Health Tracker will help to maintain medical professionals-patient relation by social distancing.
 
 
 ## Key Players:
