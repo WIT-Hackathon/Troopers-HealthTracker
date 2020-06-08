@@ -43,8 +43,8 @@ Thus Trooper Health Tracker will help to maintain medical professionals -Patient
 
 ## Demo video
 Link to Webex Recording :   https://optum.webex.com/optum/ldr.php?RCID=528ba4e54a422ea613804bf7f7ee66a0
-![Watch the video](readme_files/login.png)
-
+![Watch the video](readme_files/Recording3.wrf)
+<click on raw to download>
 ## The architecture
 
 ![HealthTracker App](readme_files/Architechture.png)
